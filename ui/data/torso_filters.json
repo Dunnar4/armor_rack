@@ -1,0 +1,36 @@
+{
+  "type": "index",
+  "stockpile": {
+    "weight_class": {
+      "display_name": "i18n(armor_rack:ui.filters.armor.weight_class.display_name)",
+      "icon": "/stonehearth_ace/ui/images/equipment_types/torso.png",
+      "ordinal": 1,
+      "categories": {
+        "any": {
+          "ordinal": 1,
+          "display_name": "i18n(armor_rack:ui.filters.armor.weight_class.any.display_name)",
+          "icon": "/stonehearth_ace/ui/images/equipment_types/light_armor.png",
+          "filter": "armor torso"
+        },
+        "light": {
+          "ordinal": 2,
+          "display_name": "i18n(armor_rack:ui.filters.armor.weight_class.light.display_name)",
+          "icon": "/stonehearth_ace/ui/images/equipment_types/light_armor.png",
+          "filter": "armor torso light_armor"
+        },
+        "medium": {
+          "ordinal": 3,
+          "display_name": "i18n(armor_rack:ui.filters.armor.weight_class.medium.display_name)",
+          "icon": "/stonehearth_ace/ui/images/equipment_types/medium_armor.png",
+          "filter": "armor torso medium_armor"
+        },
+        "heavy": {
+          "ordinal": 4,
+          "display_name": "i18n(armor_rack:ui.filters.armor.weight_class.heavy.display_name)",
+          "icon": "/stonehearth_ace/ui/images/equipment_types/heavy_armor.png",
+          "filter": "armor torso heavy_armor"
+        }
+      }
+    }
+  }
+}

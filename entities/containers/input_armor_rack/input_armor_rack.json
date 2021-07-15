@@ -1,0 +1,75 @@
+{
+  "type": "entity",
+  "mixins": "file(input_armor_rack_ghost.json)",
+  "components": {
+    "stonehearth:entity_forms": {
+      "iconic_form": "file(input_armor_rack_iconic.json)",
+      "ghost_form": "file(input_armor_rack_ghost.json)",
+      "placeable_on_ground": true
+    },
+    "destination": {
+      "region": [
+        {
+          "min": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "max": {
+            "x": 1,
+            "y": 2,
+            "z": 1
+          }
+        }
+      ],
+      "adjacency_flags": [
+        "front"
+      ]
+    },
+    "region_collision_shape": {
+      "region": [
+        {
+          "min": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "max": {
+            "x": 1,
+            "y": 2,
+            "z": 1
+          }
+        }
+      ]
+    },
+    "stonehearth:storage": {
+      "type": "input_crate",
+      "capacity": 1,
+      "render_contents": true,
+      "render_root_items": true,
+      "filter_list": "armor_rack:ui:input_armor_rack:filters",
+      "is_single_filter": true
+    },
+    "effect_list": {
+      "default": "file(/data/rigs/entities/containers/input_armor_rack/effects/idle.json)"
+    }
+  },
+  "entity_data": {
+    "stonehearth:net_worth": {
+      "value_in_gold": 1,
+      "rarity": "common",
+      "shop_info": {
+        "buyable": false,
+        "sellable": true,
+        "shopkeeper_level": 1,
+        "shopkeeper_type": "caravan"
+      }
+    },
+    "stonehearth:appeal": {
+      "appeal": 9
+    },
+    "stonehearth:item_quality": {
+      "variable_quality": true
+    }
+  }
+}
