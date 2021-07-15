@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "containers": {
+      "input_armor_rack": {
+        "display_name": "Armor Rack",
+        "description": "Display your armor"
+      }
+    }
+  },
+  "ui": {
+    "filters": {
+      "armor": {
+        "weight_class": {
+          "display_name": "Weight Class",
+          "description": "Filter by light, medium, or heavy armor",
+
+          "any": {
+            "display_name": "Any",
+            "description": "Armor of any weight class"
+          },
+          "light": {
+            "display_name": "Light",
+            "description": "Any light armor"
+          },
+          "medium": {
+            "display_name": "Medium",
+            "description": "Any medium armor"
+          },
+          "heavy": {
+            "display_name": "Heavy",
+            "description": "Any heavy armor"
+          }
+        }
+      }
+    }
+  }
+}

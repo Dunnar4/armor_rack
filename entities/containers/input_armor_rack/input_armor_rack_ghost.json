@@ -1,0 +1,37 @@
+{
+  "mixins": "stonehearth:mixins:placed_object",
+  "components": {
+    "model_variants": {
+      "default": {
+        "models": [
+          "file(input_armor_rack.qb)"
+        ]
+      }
+    },
+    "mob": {
+      "model_origin": {
+        "x": 0.05,
+        "y": 0,
+        "z": 0.05
+      },
+      "region_origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    "render_info": {
+      "scale": 0.1,
+      "animation_table": "file(/data/rigs/entities/containers/input_armor_rack/input_armor_rack.json)"
+    }
+  },
+  "entity_data": {
+    "stonehearth:catalog": {
+      "display_name": "i18n(armor_rack:entities.containers.input_armor_rack.display_name)",
+      "description": "i18n(armor_rack:entities.containers.input_armor_rack.description)",
+      "icon": "file(input_armor_rack.png)",
+      "category": "storage",
+      "material_tags": [ "wood", "containers", "crafted", "furniture", "stockpile_furniture" ]
+    }
+  }
+}

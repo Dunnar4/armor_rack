@@ -1,0 +1,21 @@
+{
+  "info": {
+    "name": "Armor Rack",
+    "namespace": "armor_rack",
+    "version": 3
+  },
+  "author": "Dunnar",
+  "dependencies": [
+    "stonehearth",
+    "radiant",
+    "rayyas_children",
+    "northern_alliance",
+    "stonehearth_ace"
+  ],
+  "default_locale": "en",
+  "aliases": {
+    "containers:input_armor_rack": "file(entities/containers/input_armor_rack/input_armor_rack.json)",
+
+    "ui:input_armor_rack:filters": "file(ui/data/torso_filters.json)"
+  }
+}
