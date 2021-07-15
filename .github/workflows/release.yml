@@ -1,0 +1,19 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  smod_job:
+    name: Create SMOD file
+    runs-on: windows-latest
+    steps:
+      - run: echo "Do some stuff to zip up the SMOD file"
+  release_job:
+    name: Create Release
+    runs-on: windows-latest
+    needs: smod_job
+    steps:
+      - run: echo "Do some stuff to create the release"
