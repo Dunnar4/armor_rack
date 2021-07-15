@@ -43,9 +43,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          head: master
+          head: main
           base: dev
-          title: Merge master into dev branch
+          title: Merge main into dev branch
           body: |
             This PR merges the main branch back into dev.
             This is to ensure that the updates from the release branch (e.g. CHANGELOG and manifest updates) are also present on the dev branch.
